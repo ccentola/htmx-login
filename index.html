@@ -7,6 +7,21 @@
     <script src="https://unpkg.com/htmx.org@2.0.1"></script>
   </head>
   <body>
-    <h1>HTMX Login Form</h1>
+    <header>
+      <h1>HTMX Login Form</h1>
+    </header>
+    <main>
+      <form>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="john.doe@example.com"
+          required
+        />
+        <input type="password" name="password" id="password" required />
+        <button type="submit">Sign In</button>
+      </form>
+    </main>
   </body>
 </html>
